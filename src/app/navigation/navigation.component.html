@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-lg customcss">
+    <div class="container-fluid">
+        <img src="assets/logo.png" alt="" width="150" height="150" class="img-fluid">
+        <p> Aruna  Samarasinghe <br> Learning</p>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Subjects
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Maths</a></li>
+              <li><a class="dropdown-item" href="#">Science</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Sinhala</a></li>
+            </ul>
+          </li>
+         
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+  <router-outlet></router-outlet>
